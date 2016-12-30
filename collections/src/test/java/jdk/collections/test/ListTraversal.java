@@ -1,5 +1,7 @@
 package jdk.collections.test;
 
+import org.junit.Test;
+
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
@@ -10,7 +12,9 @@ import java.util.List;
  * Created by miaomu on 16-12-29.
  */
 public class ListTraversal {
-    public static void main(String[] args) {
+
+    @Test
+    public void traversal() {
         //数据准备
         List<String> list = new ArrayList<String>();
         //List<String> list = new LinkedList<String>(); //对于 LinkedList是无顺序的，不支持list.get(i)

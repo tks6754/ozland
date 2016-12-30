@@ -13,6 +13,7 @@
         <module>xmlAndJson</module>
         <module>security</module>
         <module>collections</module>
+        <module>string</module>
     </modules>
 
 

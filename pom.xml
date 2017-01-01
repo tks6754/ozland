@@ -14,6 +14,7 @@
         <module>security</module>
         <module>collections</module>
         <module>string</module>
+        <module>jdbc</module>
     </modules>
 
 
@@ -40,11 +41,13 @@
             </dependency>
             <!--xml相关  end-->
 
+            <!--数据库驱动 start-->
             <dependency>
-                <groupId>junit</groupId>
-                <artifactId>junit</artifactId>
-                <version>4.11</version>
+                <groupId>mysql</groupId>
+                <artifactId>mysql-connector-java</artifactId>
+                <version>5.1.38</version>
             </dependency>
+            <!--数据库驱动 end-->
         </dependencies>
     </dependencyManagement>
 

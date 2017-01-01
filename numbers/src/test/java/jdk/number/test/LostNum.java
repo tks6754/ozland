@@ -15,7 +15,6 @@ public class LostNum {
 
         System.out.println("============================");
 
-
         float f = 2.2f;
         double d = (double) f;
         System.out.println(f);

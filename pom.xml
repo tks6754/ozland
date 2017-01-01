@@ -13,6 +13,7 @@
         <module>xmlAndJson</module>
         <module>security</module>
         <module>collections</module>
+        <module>string</module>
     </modules>
 
 
@@ -40,9 +41,14 @@
             </dependency>
             <!--xml相关  end-->
 
-
+            <dependency>
+                <groupId>junit</groupId>
+                <artifactId>junit</artifactId>
+                <version>4.11</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
+
     <dependencies>
         <dependency>
             <groupId>junit</groupId>

@@ -10,11 +10,12 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>numbers</module>
-        <module>xmlAndJson</module>
+        <module>xmlAndJsonAndProperties</module>
         <module>security</module>
         <module>collections</module>
         <module>string</module>
         <module>jdbc</module>
+        <module>mybatis</module>
     </modules>
 
 
@@ -48,6 +49,31 @@
                 <version>5.1.38</version>
             </dependency>
             <!--数据库驱动 end-->
+
+
+            <!--mybatis start-->
+            <dependency>
+                <groupId>org.mybatis</groupId>
+                <artifactId>mybatis</artifactId>
+                <version>3.4.1</version>
+            </dependency>
+            <!--mybatis end-->
+
+            <!--log start-->
+            <dependency>
+                <groupId>log4j</groupId>
+                <artifactId>log4j</artifactId>
+                <version>1.2.17</version>
+            </dependency>
+            <dependency>
+                <groupId>org.slf4j</groupId>
+                <artifactId>slf4j-api</artifactId>
+                <version>1.7.21</version>
+            </dependency>
+            <!--log end-->
+
+
+
         </dependencies>
     </dependencyManagement>
 
@@ -56,6 +82,12 @@
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
             <version>4.11</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.16.8</version>
         </dependency>
     </dependencies>
 </project>

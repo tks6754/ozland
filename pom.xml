@@ -16,6 +16,10 @@
         <module>string</module>
         <module>jdbc</module>
         <module>mybatis</module>
+        <module>thread</module>
+        <module>zothers</module>
+        <module>io</module>
+        <module>exception</module>
     </modules>
 
 

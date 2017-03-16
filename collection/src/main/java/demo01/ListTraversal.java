@@ -1,4 +1,4 @@
-package jdk.collections.test;
+package demo01;
 
 import org.junit.Test;
 

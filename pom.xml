@@ -12,14 +12,14 @@
         <module>numbers</module>
         <module>xmlAndJsonAndProperties</module>
         <module>security</module>
-        <module>collections</module>
         <module>string</module>
         <module>jdbc</module>
-        <module>mybatis</module>
         <module>thread</module>
         <module>zothers</module>
         <module>io</module>
         <module>exception</module>
+        <module>array</module>
+        <module>collection</module>
     </modules>
 
 
